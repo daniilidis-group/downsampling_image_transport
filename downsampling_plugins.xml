@@ -1,0 +1,14 @@
+<library path="lib/libdownsampling_image_transport">
+  <class name="image_transport/downsampling_pub" type="downsampling_image_transport::DownsamplingPublisher" base_class_type="image_transport::PublisherPlugin">
+    <description>
+      This plugin publishes downsampled (in time) images
+    </description>
+  </class>
+
+  <class name="image_transport/downsampling_sub" type="downsampling_image_transport::DownsamplingSubscriber" base_class_type="image_transport::SubscriberPlugin">
+    <description>
+      This plugin subscribes to downsampled images
+    </description>
+  </class>
+</library>
+		  
