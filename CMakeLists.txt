@@ -6,7 +6,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp image_transport sensor_msgs dynam
 
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
-generate_dynamic_reconfigure_options(cfg/DownsamplingDynConfig.cfg)
+generate_dynamic_reconfigure_options(cfg/DownsamplingDyn.cfg)
 
 catkin_package(
 INCLUDE_DIRS include
